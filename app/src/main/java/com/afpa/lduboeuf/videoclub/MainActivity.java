@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
 
         AlertDialog.Builder aboutDialogBuilder = new AlertDialog.Builder(this);
         aboutDialogBuilder.setTitle("Videoclub");
-        aboutDialogBuilder.setMessage("Bienvenue sur cette mini-app de collection de film, blablabla...");
+        aboutDialogBuilder.setMessage("Bienvenue sur cette mini-app de collection de film, blablabla..., thumbnails from http://www.themoviedb.org/");
         aboutDialogBuilder.setCancelable(false);
         aboutDialogBuilder.setPositiveButton("OK", new DialogInterface.OnClickListener(){
                     @Override
